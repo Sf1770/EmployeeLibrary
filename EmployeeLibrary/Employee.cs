@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeLibrary
 {
-    class Employee : Person
+    public class Employee : Person
     {
         public decimal bSal { get; set; } = 75.50M;
         public decimal hra { get; set; } = 50.75M;
@@ -42,6 +42,14 @@ namespace EmployeeLibrary
         public Employee(string fn, string ln, short age, long ssn) : base(fn, ln, age, ssn)
         {
 
+        }
+    }
+
+    public class Manager : Employee
+    {
+        public Manager() : base("Test", "Test", 12, 34242424)
+        {
+            Console.WriteLine("Calling Manager");
         }
     }
 }

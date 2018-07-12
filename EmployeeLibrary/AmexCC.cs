@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeLibrary
 {
-    class AmexCC : CreditCard
+    public class AmexCC : CreditCard
     {
         public string creditCardNum { get; }
 
