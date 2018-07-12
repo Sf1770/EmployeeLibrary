@@ -10,7 +10,7 @@ namespace EmployeeClient
             //Person person = new Person();
             //string output = person.GetPerson("Sabrina", "Fletcher", 25, 56372882);
             //string newPassKey = person.GetPassword("Sabrina", "56479202");
-            //Console.Write(newPassKey);
+            //Console.WriteLine(newPassKey);
             //Console.ReadKey();
 
             // <-------------TYPE CASTING---------------->
