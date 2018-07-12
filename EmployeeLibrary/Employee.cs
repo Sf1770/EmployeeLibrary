@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeLibrary
 {
-    class Employee: Person
+    class Employee : Person
     {
         public decimal bSal { get; set; } = 75.50M;
         public decimal hra { get; set; } = 50.75M;
@@ -44,3 +44,4 @@ namespace EmployeeLibrary
 
         }
     }
+}
